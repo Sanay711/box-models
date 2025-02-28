@@ -1,0 +1,65 @@
+/*attribute selector*/
+input[type="text"]{
+color: red;
+}
+/*child selector*/
+ul > li{
+    color: red;
+}
+/*sibling selector*/
+h1 + p{
+    color: red;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: tomato;
+}
+/*hover pseudo*/
+li:hover{
+    color: lightskyblue;
+}
+/*nth style*/
+li:nth-child(3){
+    color: crimson;
+}
+/*not style*/
+li:not(:first-of-type){
+    text-decoration: underline;
+}
+/*after style*/
+li::after{
+    content: 🚀;
+}
+/*before style*/
+li::before{
+    content: 🚀;
+}
+h2{
+    color: red;
+}
+/*first letter style*/
+li::first-letter{
+    font-size: 200%;    
+}
+ul{
+    width:200px ;
+    background-color: black;
+    color: white;
+    padding: 25px 25px 25px 25px ;
+    border: 20px solid white;
+    margin: 50px 50px 50px 50px ;
+    border-radius: 75px;
+}
+h2::before{
+    content: "😁";
+}
+h2::after{
+    content: "😁";
+}
+#lala{
+    float: right;
+    margin: -250px;
+    padding-right: 550px; 
+}
